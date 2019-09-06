@@ -1,6 +1,6 @@
 # LiveStore
 
-Share reactive state across nested [LiveView's](https://github.com/phoenixframework/phoenix_live_view)'s
+Share reactive state across nested [LiveView](https://github.com/phoenixframework/phoenix_live_view)'s
 
 ## Installation
 
@@ -94,3 +94,5 @@ defmodule MyAppWeb.CounterButtonLive do
   end
 end
 ```
+
+<img src="priv/img/example.gif" width="200" height="300"/>

@@ -32,7 +32,8 @@ defmodule LiveStore.MixProject do
 
   defp docs do
     [
-      main: "LiveStore",
+      main: "readme",
+      extras: ["README.md"],
       source_ref: "v#{@version}",
       source_url: "https://github.com/coingaming/live_store"
     ]
@@ -43,7 +44,7 @@ defmodule LiveStore.MixProject do
       maintainers: ["Reio Piller"],
       licenses: ["MIT"],
       links: %{github: "https://github.com/coingaming/live_store"},
-      files: ~w(lib LICENSE.md mix.exs README.md)
+      files: ~w(lib priv LICENSE.md mix.exs README.md)
     ]
   end
 end
