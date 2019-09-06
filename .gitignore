@@ -25,3 +25,4 @@ live_store-*.tar
 # Ignore elixir ls vscode extension dir
 .elixir_ls
 
+.DS_Store
